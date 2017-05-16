@@ -7,7 +7,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 	</head>
 	
-	<body>
+	<body background="../berkeley.jpg">
 		<section id="first">
 			<div id="bg-2">
 				<div id="bg-3">
@@ -17,7 +17,7 @@
 						<br>
 						<address>
 							<label>Email: </label> 
-							anirvin.sikha@gmail.edu
+							anirvin.sikha@gmail.com
 							<br>
 							<label>Github: </label>
 							github.com/AnirvinSikha
@@ -27,20 +27,18 @@
 			</div>
 		</section>
 
-		<!--section id="second">
-			
-		</section-->
-	</body>
+		<script src="typed.js"></script>
+		<script>
+		  document.addEventListener('DOMContentLoaded', function(){
+		      Typed.new('.element', {
+		        strings: ["First sentence.", "Second sentence."],
+		        typeSpeed: 0
+		      });
+		  });
+		</script>
+		...
 
-	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
-	<script src="js/typed.js"></script>
-	<script type="text/javascript">
-		document.addEventListener('DOMContentLoaded', function(){
-    		Typed.new('.typed', {
-    			strings: ["Student.", "Programmer.", "Leader."],
-    			typeSpeed: 25,
-    			loop: true
-    		});
-  		});
-	</script>
+		<div class="element"></div>
+	</body>
+	
 </html>
