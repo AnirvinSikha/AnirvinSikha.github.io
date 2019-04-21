@@ -1,20 +1,10 @@
-body {
-	background-color: #D1C4E9
-
+*, html, body
+{
+	margin: 0;
+	padding: 0;
 }
 
-h1 {
-	text-align: center;
-	font-size: 36;
-	font-weight: bold;
+header
+{
+	background-color: darkpurple
 }
-h2 {
-	text-align: center;
-	font-size: 28;
-}
-p {
-    margin-right: 150px;
-    margin-left: 150px;
-}
-
-#footer { position: fixed; bottom: 0; font-size: 12;}
